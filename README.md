@@ -9,3 +9,9 @@
 
 ### 2.LoveFinderSwiftDemo-相亲神器
 主要是用来熟悉一下基本控件
+
+### 3.GoddessHairSalonSwiftDemo-画廊
+主要学习一下控制器之间的跳转，push和model
+
+
+[参考学习视频](http://www.imooc.com/learn/173)
