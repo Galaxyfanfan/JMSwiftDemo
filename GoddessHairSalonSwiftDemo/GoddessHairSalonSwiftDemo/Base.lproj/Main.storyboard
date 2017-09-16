@@ -148,9 +148,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="zhaoliying" translatesAutoresizingMaskIntoConstraints="NO" id="gcW-I4-F9Q">
-                                <rect key="frame" x="-121" y="-80" width="640" height="960"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="zhaoliying" translatesAutoresizingMaskIntoConstraints="NO" id="gcW-I4-F9Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-ZV-gN9">
                                 <rect key="frame" x="16" y="28" width="58" height="29"/>
@@ -166,6 +165,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93423909559999996" green="1" blue="0.91669515260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gcW-I4-F9Q" secondAttribute="bottom" id="47u-Jg-Ria"/>
+                            <constraint firstItem="gcW-I4-F9Q" firstAttribute="top" secondItem="pqR-7t-nZI" secondAttribute="top" id="8Gz-hX-toW"/>
+                            <constraint firstItem="gcW-I4-F9Q" firstAttribute="leading" secondItem="pqR-7t-nZI" secondAttribute="leading" id="Q0R-kS-oTZ"/>
+                            <constraint firstAttribute="trailing" secondItem="gcW-I4-F9Q" secondAttribute="trailing" id="cFy-Yd-xjE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dl5-tF-lcO">
                         <barButtonItem key="rightBarButtonItem" title="分享" id="Sej-4F-6NN">
