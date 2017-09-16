@@ -16,6 +16,8 @@
 		6B0CD2F41F67834400DA050C /* GoddessHairSalonSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CD2F31F67834400DA050C /* GoddessHairSalonSwiftDemoUITests.swift */; };
 		6B117BF21F6A1AD30004900F /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B117BF11F6A1AD30004900F /* VCExtension.swift */; };
 		6B117BF41F6A2D260004900F /* GoddessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B117BF31F6A2D260004900F /* GoddessVC.swift */; };
+		6B3C06D61F6CC75D00C825F8 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C06D51F6CC75D00C825F8 /* SecondVC.swift */; };
+		6B3C06D81F6CC7B900C825F8 /* ThindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C06D71F6CC7B900C825F8 /* ThindVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6B0CD2F51F67834400DA050C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B117BF11F6A1AD30004900F /* VCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCExtension.swift; sourceTree = "<group>"; };
 		6B117BF31F6A2D260004900F /* GoddessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoddessVC.swift; sourceTree = "<group>"; };
+		6B3C06D51F6CC75D00C825F8 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		6B3C06D71F6CC7B900C825F8 /* ThindVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThindVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				6B0CD2D51F67834400DA050C /* ViewController.swift */,
 				6B117BF11F6A1AD30004900F /* VCExtension.swift */,
 				6B117BF31F6A2D260004900F /* GoddessVC.swift */,
+				6B3C06D51F6CC75D00C825F8 /* SecondVC.swift */,
+				6B3C06D71F6CC7B900C825F8 /* ThindVC.swift */,
 				6B0CD2D71F67834400DA050C /* Main.storyboard */,
 				6B0CD2DA1F67834400DA050C /* Assets.xcassets */,
 				6B0CD2DC1F67834400DA050C /* LaunchScreen.storyboard */,
@@ -269,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B117BF41F6A2D260004900F /* GoddessVC.swift in Sources */,
+				6B3C06D61F6CC75D00C825F8 /* SecondVC.swift in Sources */,
 				6B0CD2D61F67834400DA050C /* ViewController.swift in Sources */,
 				6B0CD2D41F67834400DA050C /* AppDelegate.swift in Sources */,
+				6B3C06D81F6CC7B900C825F8 /* ThindVC.swift in Sources */,
 				6B117BF21F6A1AD30004900F /* VCExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
